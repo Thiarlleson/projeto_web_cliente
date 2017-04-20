@@ -1,0 +1,245 @@
+/*
+GERAL
+ */
+
+body {
+    font-family: "Roboto Slab";
+    color: #4d4d4d;
+}
+
+h1, h2, p {
+
+    Font-family: "Roboto Slab";
+    color: #C71585;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 3px;
+
+}
+
+
+/*
+NAVEGAÇÃO
+ */
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFD700;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #f1f1f1;
+    font-weight: 700;
+    font-size: 28px;
+    font-family: Pacifico, serif;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul li {
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px;
+    margin: 15px;
+    width: 80%;
+    text-decoration: none;
+    border-radius: 6px;
+    color: #D8BFD8;
+    background-color:#4d4d4d;
+    cursor: pointer;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    transform: scale(1.2) rotate(-5deg);
+    transition: 0.7s;
+    background-color: #FF4500;
+}
+
+/*
+CABEÇALHO
+*/
+
+header {
+    background-image: url('../_imagens/capitalismo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+header p{
+    color: #4d4d4d;
+}
+
+header .botao{
+
+    width: 100px;
+    height: 50px;
+    color: #f1f1f1;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #C71585;
+    font-size: 30px;
+    border-radius: 5px;
+    animation: rodaroda 2s linear infinite alternate;
+    animation-delay: 3s;
+}
+
+
+#secao{
+
+    text-align: center;
+    padding: 10px;
+    background-color: #006400;
+
+}
+
+#secao p{
+
+    color: #f1f1f1;
+}
+
+/*
+CONTATO
+*/
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#contato p{
+    color: #4d4d4d;
+}
+
+#contato .efeito{
+    animation: pulse 1s infinite alternate ease-in-out;
+}
+
+/*
+FOOTER
+*/
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #006400;
+    color: #f1f1f1;
+
+}
+
+footer p{
+    color: #f1f1f1;
+
+}
+
+/*
+MEDIA QUERIES
+*/
+
+@media screen and (min-width: 768px) {
+    /*
+    NAVEGAÇÃO
+    */
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav ul {
+        flex-direction: row;
+        width: 70%;
+    }
+
+    /*
+    CABEÇALHO
+    */
+
+    header {
+        height: 600px;
+        justify-content: center;
+    }
+
+    /*
+    SOBRE
+    */
+
+    #secao {
+        height: 250px;
+        justify-content: center;
+        min-height: 250px;
+    }
+
+    /*
+    CONTATO
+    */
+
+    #contato {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    #contato h2,
+    #contato p {
+        width: 100%;
+    }
+
+}
+
+
+/*
+ANIMAÇÕES
+ */
+
+@keyframes  rodaroda{
+0% {
+
+    transform: scale(1.2) rotate(0deg);
+    background-color: #4d4d4d;
+
+}
+50% {
+    transform: scale(2.4) rotate(180deg);
+    background-color: #f1f1f1;
+
+}
+100% {
+    transform: scale(0.5) rotate(360deg);
+    background-color: #FF4500;
+}
+}
+
+
+@keyframes pulse {
+
+    0%   {transform: scale(.9) rotate(-135deg);}
+    100% {transform: scale(1.1) rotate(-135deg);}
+}

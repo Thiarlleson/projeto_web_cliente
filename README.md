@@ -1,2 +1,2 @@
 # projeto_web_cliente
-Trabalhos da disciplina Programação Web Cliente
+Trabalhos,atividades e testes da disciplina Programação Web Cliente
