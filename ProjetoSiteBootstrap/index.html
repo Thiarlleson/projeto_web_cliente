@@ -10,8 +10,8 @@
     <link type="text/css" rel="stylesheet" href="css/animate.min.css">
 
 </head>
-<body>
 
+<body data-spy="scroll" data-target="#meuNavbar">
 
 <!-- NAVEGAÇÃO-->
 
@@ -24,11 +24,12 @@
                 <span class="icon-bar"></span>
             </button>
 
-            <a href="http://www.mises.org.br/Article.aspx?id=1928" class="navbar-brand">SURICORP</a>
+            <a href="http://www.mises.org.br/Article.aspx?id=1928" target="_blank" class="navbar-brand">SURICORP</a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#header">Home</a></li>
+                <li><a href="#galeria">Galeria</a></li>
                 <li><a href="#serviços">Serviços</a></li>
                 <li><a href="#preços">Preços</a></li>
                 <li><a href="#equipe">Equipe</a></li>
@@ -49,8 +50,8 @@
             <div class="col-lg-6 col-md-6 wow bounceInLeft">
                 <h1>Melhores Projetos de TI e Armazenamento em Nuvem</h1>
                 <p>Somos uma empresa campeã , campeã em suricateagem , prometemos cumprir o prazo , vamos procastinar , mas não se preocupe, quando estiver perto de acabar o prazo usaremos o a metodologia mais ágil do planete  GOHORSE!</p>
-                <button class="btn btn-lg btn-primary">Compre Agora</button>
-                <button class="btn btn-lg btn-success">Veja Mais Detalhes</button>
+                <a class="btn btn-lg btn-primary" href="https://foxbit.com.br/" target="_blank">Compre Agora</a>
+                <a class="btn btn-lg btn-success" href="https://foxbit.com.br/tutoriais" target="_blank">Veja Mais Detalhes</a>
             </div>
             <div class="col-lg-6 col-md-6 wow bounceInRight">
                 <img src="images/bolsonaro-presidente.png" alt="">
@@ -58,6 +59,63 @@
         </div>
     </div>
 </header>
+
+<!--GALERIA-->
+
+<section id="galeria" class="container wow rotateInDownLeft" data-wow-delay="1s">
+    <section>
+        <div class="page-header" id="gallery">
+            <h2>Galeria</h2><p> Relaxe e compre Bitcoin</p>
+        </div>
+
+        <div class="carousel slide" id="figuras-carousel" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#figuras-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#figuras-carousel" data-slide-to="1"></li>
+                <li data-target="#figuras-carousel" data-slide-to="2"></li>
+                <li data-target="#figuras-carousel" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="images/highway.jpg" alt="montanha">
+                    <div class="carousel-caption">
+                        <h3>Montanha Linda</h3>
+                        <p>Mas não se acanhe , vc nunca irá ver pessoalmente</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/river.jpg" alt="rio">
+                    <div class="carousel-caption">
+                        <h3>Rio Maravilhoso</h3>
+                        <p>A mesma coisa que falei antes , vc não irá ver pessoalmente</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/street.jpg" alt="rua">
+                    <div class="carousel-caption">
+                        <h3>Rua cheia de comunistas</h3>
+                        <p>Mete Bala!</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/painting.jpg" alt="pintura">
+                    <div class="carousel-caption">
+                        <h3>Quadro nada  haver</h3>
+                        <p>Idiotice...</p>
+                    </div>
+                </div>
+
+            </div><!-- FIM Carousel inner -->
+            <a href="#figuras-carousel" class="left carousel-control" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a href="#figuras-carousel" class="right carousel-control" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div><!-- FIM Carousel -->
+
+    </section>
+</section>
 
 
 <!--SERVIÇOS-->
@@ -175,40 +233,40 @@
             <h2 class="wow fadeInUp">Conheça nosso Time</h2>
             <p class="wow fadeInUp" data-wow-delay="0.4">Os melhores no ramo de suricateagem e TI</p>
             <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="2s">
-                <img src="images/man_utd.jpg" class="img-circle" alt="">
+                <img src="images/man_utd.jpg" class="img-circle" alt="Chefe">
                 <h4>Thiarlleson</h4>
                 <b>CEO e Fundador</b>
                 <p>Entusiasta em Segurança da Informação</p>
-                <a href="https://pt-br.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                <a href="https://twitter.com/signup?lang=pt-br"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                <a href="https://br.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="https://pt-br.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/signup?lang=pt-br" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="https://br.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
             </div>
             <div class="col-lg-3 col-md-3  wow fadeInLeft"  data-wow-delay="1.6s">
-                <img src="images/cris.jpg" class="img-circle" alt="">
+                <img src="images/cris.jpg" class="img-circle" alt="Cristiano Leitão">
                 <h4>Cristiano</h4>
                 <b>Fundador</b>
                 <p>Desenvolvedor Expert em Java</p>
-                <a href="https://pt-br.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                <a href="https://twitter.com/signup?lang=pt-br"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                <a href="https://br.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="https://pt-br.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/signup?lang=pt-br" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="https://br.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
             </div>
             <div class="col-lg-3 col-md-3  wow fadeInLeft"  data-wow-delay="1.2s">
-                <img src="images/ca.jpg" class="img-circle" alt="">
+                <img src="images/ca.jpg" class="img-circle" alt="Carlos Adriano">
                 <h4>Carlos Adriano</h4>
                 <b>Fundador</b>
                 <p>Engenheiro de Software Sênior , Analista de Teste e Desenvolvedor Front-End</p>
-                <a href="https://pt-br.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                <a href="https://twitter.com/signup?lang=pt-br"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                <a href="https://br.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="https://pt-br.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/signup?lang=pt-br" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="https://br.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
             </div>
             <div class="col-lg-3 col-md-3  wow fadeInLeft" 0.8>
-                <img src="images/caco.jpg" class="img-circle" alt="">
+                <img src="images/caco.jpg" class="img-circle" alt="caco">
                 <h4>Francisco Silva</h4>
                 <b>Empregado</b>
                 <p>Professor Doutor com Experiênça profissional e docência internacional</p>
-                <a href="https://pt-br.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                <a href="https://twitter.com/signup?lang=pt-br"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                <a href="https://br.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="https://pt-br.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/signup?lang=pt-br" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="https://br.linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
             </div>
         </div>
     </div>
