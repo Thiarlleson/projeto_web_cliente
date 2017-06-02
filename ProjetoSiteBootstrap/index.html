@@ -54,15 +54,16 @@
                 <a class="btn btn-lg btn-success" href="https://foxbit.com.br/tutoriais" target="_blank">Veja Mais Detalhes</a>
             </div>
             <div class="col-lg-6 col-md-6 wow bounceInRight">
-                <img src="images/bolsonaro-presidente.png" alt="">
+                <img src="images/bolsonaro-presidente.png" alt="nosso presidente em 2018">
             </div>
         </div>
     </div>
 </header>
 
+
 <!--GALERIA-->
 
-<section id="galeria" class="container wow rotateInDownLeft" data-wow-delay="1s">
+<section id="galeria" class="container wow rotateInDownLeft" data-wow-delay="0.6s">
     <section>
         <div class="page-header" id="gallery">
             <h2>Galeria</h2><p> Relaxe e compre Bitcoin</p>
@@ -122,6 +123,7 @@
 
 <section id="serviços" class="serviços">
     <div class="container">
+        <hr>
         <h2 class="wow fadeInUp">Serviços</h2>
         <p class="wow fadeInUp" data-wow-delay="0.4">Veja todos os nossos serviços abaixo</p>
         <div class="row">
@@ -325,6 +327,27 @@
     </div>
 </section>
 
+
+<!---- MODAL ---->
+
+<div class="modal fade" tabindex="-1" role="dialog" id="meuModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Você que sabe...</h4>
+            </div>
+            <div class="modal-body">
+                <p>Você tem certeza? ficaremos mandando spam periodicamente :D </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Sair</button>
+                <button type="button" class="btn btn-primary">Gosto de Spam</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
 <!---- RODAPÉ ---->
 
 <footer class="footer">
@@ -351,7 +374,7 @@
                 <i class="social fa fa-pinterest" aria-hidden="true"></i>
                 <i class="social fa fa-youtube" aria-hidden="true"></i>
                 <i class="social fa fa-github" aria-hidden="true"></i><br>
-                <button class="btn btn-success">Inscrever-se para atualizações</button>
+                <button class="btn btn-success" data-toggle="modal" data-target="#meuModal">Inscrever-se para atualizações</button>
             </div>
         </div>
     </div>
