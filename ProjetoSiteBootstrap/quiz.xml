@@ -1,0 +1,51 @@
+<questions>
+    <question>
+        <question_text answer="1">Questao 1: Imposto é ?</question_text>
+        <options>
+            <option>Roubo</option>
+            <option>Necessário</option>
+            <option>Benção Divina</option>
+        </options>
+    </question>
+    <question>
+        <question_text answer="1">Questao 2: Qual o horário que você dorme ?</question_text>
+        <options>
+            <option>HAHAHAHA nem durmo</option>
+            <option>Durmo cedo umas 2 hrs</option>
+            <option>Nao sei</option>
+        </options>
+    </question>
+    <question>
+        <question_text answer="1">Questao 3: Qual a disciplina mais foda?</question_text>
+        <options>
+            <option>Hacking</option>
+            <option>Economia libertária</option>
+        </options>
+    </question>
+
+    <question>
+        <question_text answer="1">Questao 4: Qual é o professor mais carrasco do curso engcomp na uema?</question_text>
+        <options>
+            <option>Henrique Mariano</option>
+            <option>Wesley</option>
+            <option>Rogério</option>
+        </options>
+    </question>
+
+
+
+    <question>
+        <question_text answer="1">Questao 5: Se não fosse o Estado quem iria nos Roubar ?</question_text>
+        <options>
+            <option>Unicórnios</option>
+            <option>PT sempre dar um jeito</option>
+            <option>O imperialismo americano</option>
+        </options>
+    </question>
+
+</questions>
+
+
+
+
+
