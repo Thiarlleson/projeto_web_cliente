@@ -25,10 +25,21 @@ div#conteiner{
     height: 50px;
 }
 
-#resultado{
+
+#numerodequestoes {
+
     margin-top:40px;
     display:none;
-    width: 200px;
+    width: 300px;
+    height:100px;
+}
+
+#respostascorretas{
+
+    margin-top:20px;
+    margin-bottom:80px;
+    display:none;
+    width: 300px;
     height:200px;
 }
 

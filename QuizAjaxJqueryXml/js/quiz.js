@@ -142,10 +142,12 @@ function btnProximo() {
 
 
 // mostra a div do resultado com os numeros de questoes e acertos
-function ShowResult() {
+function ShowResult(){
 
-    document.getElementById("resultado").style.display = "block";
-    document.getElementById("numerodequestoes").innerHTML = contadorQuestaoAtual;
-    document.getElementById("numeroderespostascorretas").innerHTML = contadorRespostaCorreta;
-
+    document.getElementById("numerodequestoes").style.display = "block";
+    document.getElementById("nquestao").innerHTML = contadorQuestaoAtual;
+    document.getElementById("respostascorretas").style.display = "block";
+    for (i=0 ; i<arrayResposta.length;i++) {
+        document.getElementById("txtresposta").innerHTML += "<br>"+arrayResposta[i]+"<br>";
+    }
 }
