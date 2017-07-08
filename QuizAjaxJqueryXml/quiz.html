@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz com Ajax , Jquery e XML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/quiz.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/estilo.css">
+    <link type="text/css" rel="stylesheet" href="css/animate.css">
+</head>
+
+
+<body onload="carregarAjax()">
+
+<!-- NAVEGAÇÃO -->
+
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+<div class="container">
+    <div class="navbar-header">
+        <a href="http://www.mises.org.br/Article.aspx?id=1928" target="_blank" class="navbar-brand">SURICORP</a>
+    </div>
+</div>
+</nav>
+
+
+
+<!-- QUIZ -->
+
+<div class="panel panel-primary center-block" id="conteiner">
+
+    <div id="questoes">
+    </div>
+
+    <br>
+
+    <ul class="list-group" id="opcoes">
+    </ul>
+
+    <button class="btn btn-lg btn-success" id="prxBotao" onclick="btnProximo()">Próxima</button>
+
+</div>
+
+
+    <div class="panel panel-danger center-block" id="resultado">
+        <span class="label label-info center-block">Número de Questões</span>  <div class="alert alert-success text-center" id="numerodequestoes"></div>
+        <br>
+        <span class="label label-success center-block">Número de Respostas Corretas</span>  <div class="alert alert-success text-center" id="numeroderespostascorretas"></div>
+    </div>
+
+
+<!-- Footer -->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 text-center">
+                <section id="equipe" class="equipe">
+                    <div class="container">
+                        <div class="row">
+                            <h2 class="wow fadeInUp">Conheça nosso Time</h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.4">Os melhores no ramo de suricateagem e TI</p>
+                            <div class="col-lg-3 col-md-3 wow fadeInLeft" data-wow-delay="2s">
+                                <img src="man_utd.jpg" class="img-circle" alt="Chefe">
+                                <h4>Thiarlleson</h4>
+                                <b>CEO e Fundador</b>
+                                <p>Entusiasta em Segurança da Informação</p>
+                            </div>
+                            <div class="col-lg-3 col-md-3  wow fadeInLeft"  data-wow-delay="1.6s">
+                                <img src="cris.jpg" class="img-circle" alt="Cristiano Leitão">
+                                <h4>Cristiano</h4>
+                                <b>Fundador</b>
+                                <p>Desenvolvedor Expert em Java</p>
+                            </div>
+                            <div class="col-lg-3 col-md-3  wow fadeInLeft"  data-wow-delay="1.2s">
+                                <img src="ca.jpg" class="img-circle" alt="Carlos Adriano">
+                                <h4>Carlos Adriano</h4>
+                                <b>Fundador</b>
+                                <p>Engenheiro de Software Sênior , Analista de Teste e Desenvolvedor Front-End</p>
+                            </div>
+                            <div class="col-lg-3 col-md-3  wow fadeInLeft">
+                                <img src="caco.jpg" class="img-circle" alt="caco">
+                                <h4>Francisco Silva</h4>
+                                <b>Empregado</b>
+                                <p>Professor Doutor com Experiênça profissional e docência internacional</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/wow.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+
+</body>
+</html>

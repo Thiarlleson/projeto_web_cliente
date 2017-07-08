@@ -1,0 +1,86 @@
+
+div#opcoes input{
+    margin-left: 15px;
+}
+
+ul{
+    list-style: none;
+}
+
+#item_li{
+    border-radius: 10px;
+}
+
+div#conteiner{
+    margin-top: 100px;
+    width: 500px;
+    height: 250px;
+    background-color: #FAFAFA;
+    padding: 10px;
+}
+
+#prxBotao {
+    float: right;
+    width: 100px;
+    height: 50px;
+}
+
+#resultado{
+    margin-top:40px;
+    display:none;
+    width: 200px;
+    height:200px;
+}
+
+
+/*EQUIPE*/
+
+.equipe {
+    padding: 20px;
+    text-align: center;
+}
+
+
+.equipe b,
+.equipe h2,
+.equipe h4 {
+    margin: 10px;
+    color: #e0e4e2;
+}
+
+
+.equipe p {
+    color: #737373;
+}
+
+.equipe img {
+    height: 150px;
+    width: 150px;
+    margin-top: 80px;
+}
+
+
+.equipe i {
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 50%;
+    background-color: #a0db8e;
+    color: #fff;
+}
+
+.equipe a:hover i {
+    background-color: #709963;
+}
+
+
+/* FOOTER*/
+
+.footer {
+    margin-top: 20px;
+    padding: 10px;
+    color: #cccccc;
+    background-color: #414644;
+
+}
